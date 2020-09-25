@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AndChargeAccountLink"
-  spec.version      = "0.0.2"
+  spec.version      = "1.0"
   spec.summary      = "This sdk is meant to simplify the integration of account linking with &Charge on iOS       "
 
   # This description is used to generate tags and improve search results.
@@ -78,8 +78,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/andchargemobile/iOSAndChargeAccountLink.git", :tag => "#{spec.version}" }
-
+  spec.source       = { :git => "https://github.com/andchargemobile/iOSAndChargeAccountLink.git", tag: "#{spec.version}", :branch => 'master' }
+  
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

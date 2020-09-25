@@ -8,6 +8,6 @@
 import Foundation
 
 public protocol ACAccountLinkDelegate: class {
-    func didRequestFailed(with error:AccountLinkError)
-    func didAccountLinkResponses(with result:AccountLinkResult)
+    func didRequestAccountLink(with requestUrl:URL?, error:ACAccountLinkError?)
+    func didAccountLinkResponses(with requestUrl:URL?, result:ACAccountLinkResult)
 }
