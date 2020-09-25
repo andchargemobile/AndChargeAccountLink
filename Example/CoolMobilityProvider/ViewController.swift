@@ -11,6 +11,10 @@ import AndChargeAccountLink
 class ViewController: UIViewController {
 
     @IBOutlet weak var lblError: UILabel!
+    @IBOutlet weak var lblConnetUrl: UILabel!
+    @IBOutlet weak var txtPartnerId: UITextField!
+    @IBOutlet weak var txtPartnerUserId: UITextField!
+    @IBOutlet weak var txtActivationCode: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,18 +28,30 @@ class ViewController: UIViewController {
     
     @IBAction func btnConnect(_ sender: Any) {
         ACAccountLink.shared.delegate = self
-        ACAccountLink.shared.linkAccount(partnerId: "PCS-001",
-                       partnerUserId: "1553fe89-95ff-4326-b038-c49ecc7e34db",
-                       activationCode: "df7eZIbQ7IiStqgcoOY2XX6Lk0C9qPf3CwYB/LSbN5c",
-                       callbackUrl: "coolmobilityprovider://and-charge/link")
+        ACAccountLink.shared.linkAccount(partnerId: txtPartnerId.text ?? "",
+                                         partnerUserId: txtPartnerUserId.text ?? "",
+                                         activationCode: txtActivationCode.text ?? "",
+                                         callbackUrl: "coolmobilityprovider://and-charge/link")
     }
 }
 
 extension ViewController: ACAccountLinkDelegate {
-    func didRequestFailed(with error: AccountLinkError) {
-        lblError.text = error.localizedDescription
+    
+    func didRequestAccountLink(with requestUrl: URL?, error: ACAccountLinkError?) {
+        if let requestUrl = requestUrl{
+            lblConnetUrl.text = requestUrl.absoluteString
+        }
+        if let error = error{
+            // return Error
+            lblError.text = error.localizedDescription
+        }
     }
-    func didAccountLinkResponses(with result: AccountLinkResult) {
+    
+    func didAccountLinkResponses(with requestUrl:URL?, result: ACAccountLinkResult) {
+        if let requestUrl = requestUrl{
+            lblConnetUrl.text = requestUrl.absoluteString
+        }
+        
         switch result {
         case .Success:
             lblError.text = "You are connected"
