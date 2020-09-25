@@ -9,11 +9,11 @@ import Foundation
 
 enum ACConfigEnum:String {
     case andChargeURLScheme = "andcharge://"
-    case basePath = "https://pp.and-charge.com/confirmAccountLink"
+    case basePath = "https://and-charge.com/confirmAccountLink"
     case APP_ID = "id1487636133"
 }
 
-public enum AccountLinkError: Error,CaseIterable {
+public enum ACAccountLinkError: Error,CaseIterable {
     case INVALID_REQUEST
     case NIL_EXCEPTION
     case ANDCHARGE_NOT_INSTALLED
@@ -27,7 +27,7 @@ public enum AccountLinkError: Error,CaseIterable {
     case REFERENCED_OBJECT_NOT_FOUND
     
     init?(caseName: String) {
-        for value in AccountLinkError.allCases where "\(value)" == caseName {
+        for value in ACAccountLinkError.allCases where "\(value)" == caseName {
             self = value
             return
         }
@@ -35,7 +35,7 @@ public enum AccountLinkError: Error,CaseIterable {
     }
 }
 
-extension AccountLinkError: LocalizedError {
+extension ACAccountLinkError: LocalizedError {
     public var errorDescription: String? {
         switch self {
         case .INVALID_REQUEST:
@@ -62,7 +62,7 @@ extension AccountLinkError: LocalizedError {
     }
 }
 
-public enum AccountLinkResult : Equatable{
+public enum ACAccountLinkResult : Equatable{
     case Success
-    case Error(errorType:AccountLinkError)
+    case Error(errorType:ACAccountLinkError)
 }
