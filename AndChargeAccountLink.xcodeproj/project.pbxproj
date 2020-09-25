@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5802E5D3251D7DCD00363FCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5802E5D2251D7DCD00363FCB /* AppDelegate.swift */; };
+		5802E5D5251D7DCD00363FCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5802E5D4251D7DCD00363FCB /* SceneDelegate.swift */; };
+		5802E5D7251D7DCD00363FCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5802E5D6251D7DCD00363FCB /* ViewController.swift */; };
+		5802E5DA251D7DCD00363FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5802E5D8251D7DCD00363FCB /* Main.storyboard */; };
+		5802E5DC251D7DD000363FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5802E5DB251D7DD000363FCB /* Assets.xcassets */; };
+		5802E5DF251D7DD000363FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5802E5DD251D7DD000363FCB /* LaunchScreen.storyboard */; };
 		58A0CBB3251B7F4D0049F49A /* AndChargeAccountLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A0CBA9251B7F4D0049F49A /* AndChargeAccountLink.framework */; };
 		58A0CBB8251B7F4D0049F49A /* AndChargeAccountLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CBB7251B7F4D0049F49A /* AndChargeAccountLinkTests.swift */; };
 		58A0CBBA251B7F4D0049F49A /* AndChargeAccountLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A0CBAC251B7F4D0049F49A /* AndChargeAccountLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58A0CBC8251B81420049F49A /* ACAccountLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CBC7251B81420049F49A /* ACAccountLink.swift */; };
-		58A0CCE9251B95EF0049F49A /* AndChargeAccountLink-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58A0CBAD251B7F4D0049F49A /* AndChargeAccountLink-Info.plist */; };
 		58A0CD34251C6F5A0049F49A /* ACConfigEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CD33251C6F5A0049F49A /* ACConfigEnum.swift */; };
 		58A0CD39251C6F710049F49A /* ACURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CD38251C6F710049F49A /* ACURLBuilder.swift */; };
 		58A0CD3F251C734A0049F49A /* ACAccountLinkDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CD3E251C734A0049F49A /* ACAccountLinkDelegate.swift */; };
-		58A0CD62251CA3A90049F49A /* AndChargeAccountLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A0CBA9251B7F4D0049F49A /* AndChargeAccountLink.framework */; };
-		58A0CD63251CA3A90049F49A /* AndChargeAccountLink.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 58A0CBA9251B7F4D0049F49A /* AndChargeAccountLink.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		58A0CD70251CCF8C0049F49A /* ACAccountLinkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CD6F251CCF8B0049F49A /* ACAccountLinkParser.swift */; };
 		58A0CD76251CDF2A0049F49A /* ACAccountLinkParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CD75251CDF290049F49A /* ACAccountLinkParserTests.swift */; };
 /* End PBXBuildFile section */
@@ -29,30 +32,17 @@
 			remoteGlobalIDString = 58A0CBA8251B7F4D0049F49A;
 			remoteInfo = AndChargeAccountLink;
 		};
-		58A0CD64251CA3A90049F49A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 58A0CBA0251B7F4D0049F49A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 58A0CBA8251B7F4D0049F49A;
-			remoteInfo = AndChargeAccountLink;
-		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		58A0CD66251CA3A90049F49A /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				58A0CD63251CA3A90049F49A /* AndChargeAccountLink.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		5802E5D0251D7DCD00363FCB /* CoolMobilityProvider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolMobilityProvider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5802E5D2251D7DCD00363FCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5802E5D4251D7DCD00363FCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5802E5D6251D7DCD00363FCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5802E5D9251D7DCD00363FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5802E5DB251D7DD000363FCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5802E5DE251D7DD000363FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5802E5E0251D7DD000363FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58A0CBA9251B7F4D0049F49A /* AndChargeAccountLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AndChargeAccountLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A0CBAC251B7F4D0049F49A /* AndChargeAccountLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndChargeAccountLink.h; sourceTree = "<group>"; };
 		58A0CBAD251B7F4D0049F49A /* AndChargeAccountLink-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AndChargeAccountLink-Info.plist"; sourceTree = "<group>"; };
@@ -60,7 +50,6 @@
 		58A0CBB7251B7F4D0049F49A /* AndChargeAccountLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndChargeAccountLinkTests.swift; sourceTree = "<group>"; };
 		58A0CBB9251B7F4D0049F49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58A0CBC7251B81420049F49A /* ACAccountLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACAccountLink.swift; sourceTree = "<group>"; };
-		58A0CCA5251B8A170049F49A /* CoolMobilityProvider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolMobilityProvider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A0CD33251C6F5A0049F49A /* ACConfigEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACConfigEnum.swift; sourceTree = "<group>"; };
 		58A0CD38251C6F710049F49A /* ACURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACURLBuilder.swift; sourceTree = "<group>"; };
 		58A0CD3E251C734A0049F49A /* ACAccountLinkDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACAccountLinkDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +58,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5802E5CD251D7DCD00363FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58A0CBA6251B7F4D0049F49A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -84,22 +80,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58A0CCA2251B8A170049F49A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58A0CD62251CA3A90049F49A /* AndChargeAccountLink.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5802E5D1251D7DCD00363FCB /* CoolMobilityProvider */ = {
+			isa = PBXGroup;
+			children = (
+				5802E5D2251D7DCD00363FCB /* AppDelegate.swift */,
+				5802E5D4251D7DCD00363FCB /* SceneDelegate.swift */,
+				5802E5D6251D7DCD00363FCB /* ViewController.swift */,
+				5802E5D8251D7DCD00363FCB /* Main.storyboard */,
+				5802E5DB251D7DD000363FCB /* Assets.xcassets */,
+				5802E5DD251D7DD000363FCB /* LaunchScreen.storyboard */,
+				5802E5E0251D7DD000363FCB /* Info.plist */,
+			);
+			path = CoolMobilityProvider;
+			sourceTree = "<group>";
+		};
+		5802E5E7251D7DE900363FCB /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				5802E5D1251D7DCD00363FCB /* CoolMobilityProvider */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		58A0CB9F251B7F4D0049F49A = {
 			isa = PBXGroup;
 			children = (
 				58A0CBAB251B7F4D0049F49A /* AndChargeAccountLink */,
 				58A0CBB6251B7F4D0049F49A /* AndChargeAccountLinkTests */,
+				5802E5E7251D7DE900363FCB /* Example */,
 				58A0CBAA251B7F4D0049F49A /* Products */,
 				58A0CC04251B820B0049F49A /* Frameworks */,
 			);
@@ -110,7 +121,7 @@
 			children = (
 				58A0CBA9251B7F4D0049F49A /* AndChargeAccountLink.framework */,
 				58A0CBB2251B7F4D0049F49A /* AndChargeAccountLinkTests.xctest */,
-				58A0CCA5251B8A170049F49A /* CoolMobilityProvider.app */,
+				5802E5D0251D7DCD00363FCB /* CoolMobilityProvider.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,6 +171,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		5802E5CF251D7DCD00363FCB /* CoolMobilityProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5802E5E1251D7DD000363FCB /* Build configuration list for PBXNativeTarget "CoolMobilityProvider" */;
+			buildPhases = (
+				5802E5CC251D7DCD00363FCB /* Sources */,
+				5802E5CD251D7DCD00363FCB /* Frameworks */,
+				5802E5CE251D7DCD00363FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolMobilityProvider;
+			productName = CoolMobilityProvider;
+			productReference = 5802E5D0251D7DCD00363FCB /* CoolMobilityProvider.app */;
+			productType = "com.apple.product-type.application";
+		};
 		58A0CBA8251B7F4D0049F49A /* AndChargeAccountLink */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58A0CBBD251B7F4D0049F49A /* Build configuration list for PBXNativeTarget "AndChargeAccountLink" */;
@@ -196,25 +224,6 @@
 			productReference = 58A0CBB2251B7F4D0049F49A /* AndChargeAccountLinkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		58A0CCA4251B8A170049F49A /* CoolMobilityProvider */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58A0CCB6251B8A190049F49A /* Build configuration list for PBXNativeTarget "CoolMobilityProvider" */;
-			buildPhases = (
-				58A0CCA1251B8A170049F49A /* Sources */,
-				58A0CCA2251B8A170049F49A /* Frameworks */,
-				58A0CCA3251B8A170049F49A /* Resources */,
-				58A0CD66251CA3A90049F49A /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				58A0CD65251CA3A90049F49A /* PBXTargetDependency */,
-			);
-			name = CoolMobilityProvider;
-			productName = CoolMobilityProvider;
-			productReference = 58A0CCA5251B8A170049F49A /* CoolMobilityProvider.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -224,14 +233,14 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					5802E5CF251D7DCD00363FCB = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					58A0CBA8251B7F4D0049F49A = {
 						CreatedOnToolsVersion = 12.0;
 						LastSwiftMigration = 1200;
 					};
 					58A0CBB1251B7F4D0049F49A = {
-						CreatedOnToolsVersion = 12.0;
-					};
-					58A0CCA4251B8A170049F49A = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
@@ -251,17 +260,26 @@
 			targets = (
 				58A0CBA8251B7F4D0049F49A /* AndChargeAccountLink */,
 				58A0CBB1251B7F4D0049F49A /* AndChargeAccountLinkTests */,
-				58A0CCA4251B8A170049F49A /* CoolMobilityProvider */,
+				5802E5CF251D7DCD00363FCB /* CoolMobilityProvider */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5802E5CE251D7DCD00363FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5802E5DF251D7DD000363FCB /* LaunchScreen.storyboard in Resources */,
+				5802E5DC251D7DD000363FCB /* Assets.xcassets in Resources */,
+				5802E5DA251D7DCD00363FCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58A0CBA7251B7F4D0049F49A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58A0CCE9251B95EF0049F49A /* AndChargeAccountLink-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,16 +290,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58A0CCA3251B8A170049F49A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5802E5CC251D7DCD00363FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5802E5D7251D7DCD00363FCB /* ViewController.swift in Sources */,
+				5802E5D3251D7DCD00363FCB /* AppDelegate.swift in Sources */,
+				5802E5D5251D7DCD00363FCB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58A0CBA5251B7F4D0049F49A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -303,13 +324,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58A0CCA1251B8A170049F49A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -318,14 +332,68 @@
 			target = 58A0CBA8251B7F4D0049F49A /* AndChargeAccountLink */;
 			targetProxy = 58A0CBB4251B7F4D0049F49A /* PBXContainerItemProxy */;
 		};
-		58A0CD65251CA3A90049F49A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 58A0CBA8251B7F4D0049F49A /* AndChargeAccountLink */;
-			targetProxy = 58A0CD64251CA3A90049F49A /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		5802E5D8251D7DCD00363FCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5802E5D9251D7DCD00363FCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5802E5DD251D7DD000363FCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5802E5DE251D7DD000363FCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		5802E5E2251D7DD000363FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XB4UMY888T;
+				INFOPLIST_FILE = Example/CoolMobilityProvider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andcharge.CoolMobilityProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5802E5E3251D7DD000363FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XB4UMY888T;
+				INFOPLIST_FILE = Example/CoolMobilityProvider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andcharge.CoolMobilityProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		58A0CBBB251B7F4D0049F49A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -471,7 +539,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -498,7 +566,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.andcharge.accountlink;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -541,51 +609,18 @@
 			};
 			name = Release;
 		};
-		58A0CCB7251B8A190049F49A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = XB4UMY888T;
-				INFOPLIST_FILE = "$(SRCROOT)/Example/CoolMobilityProvider/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.andcharge.coolmobilityprovider;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "And Charge wildcard";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		58A0CCB8251B8A190049F49A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = XB4UMY888T;
-				INFOPLIST_FILE = "$(SRCROOT)/Example/CoolMobilityProvider/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.andcharge.coolmobilityprovider;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "And Charge wildcard";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5802E5E1251D7DD000363FCB /* Build configuration list for PBXNativeTarget "CoolMobilityProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5802E5E2251D7DD000363FCB /* Debug */,
+				5802E5E3251D7DD000363FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		58A0CBA3251B7F4D0049F49A /* Build configuration list for PBXProject "AndChargeAccountLink" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -609,15 +644,6 @@
 			buildConfigurations = (
 				58A0CBC1251B7F4D0049F49A /* Debug */,
 				58A0CBC2251B7F4D0049F49A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		58A0CCB6251B8A190049F49A /* Build configuration list for PBXNativeTarget "CoolMobilityProvider" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				58A0CCB7251B8A190049F49A /* Debug */,
-				58A0CCB8251B8A190049F49A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
