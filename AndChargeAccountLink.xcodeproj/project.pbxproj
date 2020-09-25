@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		5802E5DA251D7DCD00363FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5802E5D8251D7DCD00363FCB /* Main.storyboard */; };
 		5802E5DC251D7DD000363FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5802E5DB251D7DD000363FCB /* Assets.xcassets */; };
 		5802E5DF251D7DD000363FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5802E5DD251D7DD000363FCB /* LaunchScreen.storyboard */; };
+		5802E626251D9DEB00363FCB /* ACAccountLinkNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5802E625251D9DEB00363FCB /* ACAccountLinkNavigator.swift */; };
 		58A0CBB3251B7F4D0049F49A /* AndChargeAccountLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A0CBA9251B7F4D0049F49A /* AndChargeAccountLink.framework */; };
 		58A0CBB8251B7F4D0049F49A /* AndChargeAccountLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CBB7251B7F4D0049F49A /* AndChargeAccountLinkTests.swift */; };
 		58A0CBBA251B7F4D0049F49A /* AndChargeAccountLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A0CBAC251B7F4D0049F49A /* AndChargeAccountLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -22,6 +23,9 @@
 		58A0CD3F251C734A0049F49A /* ACAccountLinkDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CD3E251C734A0049F49A /* ACAccountLinkDelegate.swift */; };
 		58A0CD70251CCF8C0049F49A /* ACAccountLinkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CD6F251CCF8B0049F49A /* ACAccountLinkParser.swift */; };
 		58A0CD76251CDF2A0049F49A /* ACAccountLinkParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CD75251CDF290049F49A /* ACAccountLinkParserTests.swift */; };
+		797C789AB70AD9C689E20774 /* Pods_AndChargeAccountLink_AndChargeAccountLinkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98025136A99E35C33585C048 /* Pods_AndChargeAccountLink_AndChargeAccountLinkTests.framework */; };
+		A515DDBB1BD9D2BCD57BDA85 /* Pods_AndChargeAccountLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CDBE753450E292B202F3FC /* Pods_AndChargeAccountLink.framework */; };
+		E347A0E0EBAC35046DA233CE /* Pods_CoolMobilityProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9DC9E22864305D96A0AF31 /* Pods_CoolMobilityProvider.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07FB911B27AEF30E06C5818F /* Pods-AndChargeAccountLink-AndChargeAccountLinkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndChargeAccountLink-AndChargeAccountLinkTests.release.xcconfig"; path = "Target Support Files/Pods-AndChargeAccountLink-AndChargeAccountLinkTests/Pods-AndChargeAccountLink-AndChargeAccountLinkTests.release.xcconfig"; sourceTree = "<group>"; };
 		5802E5D0251D7DCD00363FCB /* CoolMobilityProvider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolMobilityProvider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5802E5D2251D7DCD00363FCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5802E5D4251D7DCD00363FCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +48,7 @@
 		5802E5DB251D7DD000363FCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5802E5DE251D7DD000363FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5802E5E0251D7DD000363FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5802E625251D9DEB00363FCB /* ACAccountLinkNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACAccountLinkNavigator.swift; sourceTree = "<group>"; };
 		58A0CBA9251B7F4D0049F49A /* AndChargeAccountLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AndChargeAccountLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A0CBAC251B7F4D0049F49A /* AndChargeAccountLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndChargeAccountLink.h; sourceTree = "<group>"; };
 		58A0CBAD251B7F4D0049F49A /* AndChargeAccountLink-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AndChargeAccountLink-Info.plist"; sourceTree = "<group>"; };
@@ -55,6 +61,14 @@
 		58A0CD3E251C734A0049F49A /* ACAccountLinkDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACAccountLinkDelegate.swift; sourceTree = "<group>"; };
 		58A0CD6F251CCF8B0049F49A /* ACAccountLinkParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACAccountLinkParser.swift; sourceTree = "<group>"; };
 		58A0CD75251CDF290049F49A /* ACAccountLinkParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACAccountLinkParserTests.swift; sourceTree = "<group>"; };
+		59303FE1E342B17219445C71 /* Pods-AndChargeAccountLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndChargeAccountLink.debug.xcconfig"; path = "Target Support Files/Pods-AndChargeAccountLink/Pods-AndChargeAccountLink.debug.xcconfig"; sourceTree = "<group>"; };
+		7AACA184C74DB2162D6A6FCD /* Pods-AndChargeAccountLink-AndChargeAccountLinkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndChargeAccountLink-AndChargeAccountLinkTests.debug.xcconfig"; path = "Target Support Files/Pods-AndChargeAccountLink-AndChargeAccountLinkTests/Pods-AndChargeAccountLink-AndChargeAccountLinkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		96CDBE753450E292B202F3FC /* Pods_AndChargeAccountLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AndChargeAccountLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97B76A53CFA479A987B1944D /* Pods-CoolMobilityProvider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolMobilityProvider.debug.xcconfig"; path = "Target Support Files/Pods-CoolMobilityProvider/Pods-CoolMobilityProvider.debug.xcconfig"; sourceTree = "<group>"; };
+		98025136A99E35C33585C048 /* Pods_AndChargeAccountLink_AndChargeAccountLinkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AndChargeAccountLink_AndChargeAccountLinkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9DC9E22864305D96A0AF31 /* Pods_CoolMobilityProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoolMobilityProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7CA47D8AE0AC15E249887AF /* Pods-AndChargeAccountLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndChargeAccountLink.release.xcconfig"; path = "Target Support Files/Pods-AndChargeAccountLink/Pods-AndChargeAccountLink.release.xcconfig"; sourceTree = "<group>"; };
+		FEC778672F8CEF2ED04E48CD /* Pods-CoolMobilityProvider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolMobilityProvider.release.xcconfig"; path = "Target Support Files/Pods-CoolMobilityProvider/Pods-CoolMobilityProvider.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E347A0E0EBAC35046DA233CE /* Pods_CoolMobilityProvider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A515DDBB1BD9D2BCD57BDA85 /* Pods_AndChargeAccountLink.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,12 +93,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				58A0CBB3251B7F4D0049F49A /* AndChargeAccountLink.framework in Frameworks */,
+				797C789AB70AD9C689E20774 /* Pods_AndChargeAccountLink_AndChargeAccountLinkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43DD608C7C012213C33C7D24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59303FE1E342B17219445C71 /* Pods-AndChargeAccountLink.debug.xcconfig */,
+				E7CA47D8AE0AC15E249887AF /* Pods-AndChargeAccountLink.release.xcconfig */,
+				7AACA184C74DB2162D6A6FCD /* Pods-AndChargeAccountLink-AndChargeAccountLinkTests.debug.xcconfig */,
+				07FB911B27AEF30E06C5818F /* Pods-AndChargeAccountLink-AndChargeAccountLinkTests.release.xcconfig */,
+				97B76A53CFA479A987B1944D /* Pods-CoolMobilityProvider.debug.xcconfig */,
+				FEC778672F8CEF2ED04E48CD /* Pods-CoolMobilityProvider.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5802E5D1251D7DCD00363FCB /* CoolMobilityProvider */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +143,7 @@
 				5802E5E7251D7DE900363FCB /* Example */,
 				58A0CBAA251B7F4D0049F49A /* Products */,
 				58A0CC04251B820B0049F49A /* Frameworks */,
+				43DD608C7C012213C33C7D24 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +167,7 @@
 				58A0CD38251C6F710049F49A /* ACURLBuilder.swift */,
 				58A0CD3E251C734A0049F49A /* ACAccountLinkDelegate.swift */,
 				58A0CD6F251CCF8B0049F49A /* ACAccountLinkParser.swift */,
+				5802E625251D9DEB00363FCB /* ACAccountLinkNavigator.swift */,
 			);
 			path = AndChargeAccountLink;
 			sourceTree = "<group>";
@@ -153,6 +185,9 @@
 		58A0CC04251B820B0049F49A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				96CDBE753450E292B202F3FC /* Pods_AndChargeAccountLink.framework */,
+				98025136A99E35C33585C048 /* Pods_AndChargeAccountLink_AndChargeAccountLinkTests.framework */,
+				DC9DC9E22864305D96A0AF31 /* Pods_CoolMobilityProvider.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -175,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5802E5E1251D7DD000363FCB /* Build configuration list for PBXNativeTarget "CoolMobilityProvider" */;
 			buildPhases = (
+				8A2A3BF2D062421A7868FEDC /* [CP] Check Pods Manifest.lock */,
 				5802E5CC251D7DCD00363FCB /* Sources */,
 				5802E5CD251D7DCD00363FCB /* Frameworks */,
 				5802E5CE251D7DCD00363FCB /* Resources */,
+				3BC1AF05755E27999864FEC8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58A0CBBD251B7F4D0049F49A /* Build configuration list for PBXNativeTarget "AndChargeAccountLink" */;
 			buildPhases = (
+				85206EAF9A6A9B2B8B7B64E3 /* [CP] Check Pods Manifest.lock */,
 				58A0CBA4251B7F4D0049F49A /* Headers */,
 				58A0CBA5251B7F4D0049F49A /* Sources */,
 				58A0CBA6251B7F4D0049F49A /* Frameworks */,
@@ -210,6 +248,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58A0CBC0251B7F4D0049F49A /* Build configuration list for PBXNativeTarget "AndChargeAccountLinkTests" */;
 			buildPhases = (
+				98BCAED62177ACE5B18D058E /* [CP] Check Pods Manifest.lock */,
 				58A0CBAE251B7F4D0049F49A /* Sources */,
 				58A0CBAF251B7F4D0049F49A /* Frameworks */,
 				58A0CBB0251B7F4D0049F49A /* Resources */,
@@ -292,6 +331,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3BC1AF05755E27999864FEC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoolMobilityProvider/Pods-CoolMobilityProvider-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoolMobilityProvider/Pods-CoolMobilityProvider-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoolMobilityProvider/Pods-CoolMobilityProvider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85206EAF9A6A9B2B8B7B64E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AndChargeAccountLink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A2A3BF2D062421A7868FEDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoolMobilityProvider-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98BCAED62177ACE5B18D058E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AndChargeAccountLink-AndChargeAccountLinkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5802E5CC251D7DCD00363FCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -308,6 +433,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58A0CD3F251C734A0049F49A /* ACAccountLinkDelegate.swift in Sources */,
+				5802E626251D9DEB00363FCB /* ACAccountLinkNavigator.swift in Sources */,
 				58A0CD39251C6F710049F49A /* ACURLBuilder.swift in Sources */,
 				58A0CBC8251B81420049F49A /* ACAccountLink.swift in Sources */,
 				58A0CD34251C6F5A0049F49A /* ACConfigEnum.swift in Sources */,
@@ -356,6 +482,7 @@
 /* Begin XCBuildConfiguration section */
 		5802E5E2251D7DD000363FCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97B76A53CFA479A987B1944D /* Pods-CoolMobilityProvider.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -376,6 +503,7 @@
 		};
 		5802E5E3251D7DD000363FCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC778672F8CEF2ED04E48CD /* Pods-CoolMobilityProvider.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -518,6 +646,7 @@
 		};
 		58A0CBBE251B7F4D0049F49A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59303FE1E342B17219445C71 /* Pods-AndChargeAccountLink.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +675,7 @@
 		};
 		58A0CBBF251B7F4D0049F49A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7CA47D8AE0AC15E249887AF /* Pods-AndChargeAccountLink.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -573,6 +703,7 @@
 		};
 		58A0CBC1251B7F4D0049F49A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AACA184C74DB2162D6A6FCD /* Pods-AndChargeAccountLink-AndChargeAccountLinkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -592,6 +723,7 @@
 		};
 		58A0CBC2251B7F4D0049F49A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FB911B27AEF30E06C5818F /* Pods-AndChargeAccountLink-AndChargeAccountLinkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
